@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        RemoveDuplicatesSortedArray remover = new RemoveDuplicatesSortedArray();
-        int[] testArray = {1, 1, 1, 2, 2, 3};
+        RemoveDuplicatesSortedArrayII remover = new RemoveDuplicatesSortedArrayII();
+        int[] testArray = {0,0,1,1,1,1,2,3,3};
 
         int newLength = remover.removeDuplicates(testArray);
 
