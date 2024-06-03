@@ -1,3 +1,5 @@
+package easy;
+
 public class RemoveDuplicatesSortedArray {
     public int removeDuplicates(int[] nums) {
         int k = 0;

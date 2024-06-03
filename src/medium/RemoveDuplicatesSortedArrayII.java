@@ -1,3 +1,5 @@
+package medium;
+
 public class RemoveDuplicatesSortedArrayII {
     public int removeDuplicates(int[] nums) {
         int k = 0;

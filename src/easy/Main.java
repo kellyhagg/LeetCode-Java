@@ -1,6 +1,8 @@
+package easy;
+
 public class Main {
     public static void main(String[] args) {
-        RemoveDuplicatesSortedArrayII remover = new RemoveDuplicatesSortedArrayII();
+        RemoveDuplicatesSortedArray remover = new RemoveDuplicatesSortedArray();
         int[] testArray = {0,0,1,1,1,1,2,3,3};
 
         int newLength = remover.removeDuplicates(testArray);
